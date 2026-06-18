@@ -1,0 +1,22 @@
+# Sanal Ortam (Virtual Environment)
+venv/
+.venv/
+env/
+
+# Veri Klasörleri (Sadece klasör yapısı kalsın, içindeki dosyalar gitmesin)
+data/raw/*
+data/processed/*
+data/external/*
+
+# Git'in klasörleri takip edebilmesi için .gitkeep dosyalarını hariç tut
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Jupyter Notebook Geçici Dosyaları
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# İşletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
